@@ -1,4 +1,4 @@
-## uvic-beamer
+### uvic-beamer
 
 A beamer template loosely following the University of Victoria's style guidelines.
 
@@ -52,6 +52,7 @@ There are a few colors defined taken from the UVic brand guidelines, which are a
 ## Links
 
 UVic brand guidelines: 
+
 http://www.uvic.ca/communicationsmarketing/assets/docs/UVic-Brand-Guidelines.pdf 
 
 ## Disclaimer
