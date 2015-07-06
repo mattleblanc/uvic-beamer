@@ -32,16 +32,19 @@ You also need to enclose your first slide in a set of braces, in order to give i
 
 The header has a few options you can play with, feel free to mess around with them to suit your own needs. The default settings get you slides with a 16:9 aspect ratio, and dark blue text.
 
-
+## Example
 
 If you want to build the enclosed example, I'd suggest doing so in a fresh location like this:
 
 ```
 mkdir myWorkDir && cd myWorkDir/
 git clone git@github.com:mattleblanc/uvic-beamer.git
-cp -r uvic-beamer/example/* .
+cp uvic-beamer/example/uvic-beamer-example.tex .
+cp uvic-beamer/example/Makefile .
 make
 ```
+
+You can find a set of slides which I compiled at `uvic-beamer/example/vic-beamer-example.pdf`, if you just want to look at the style.
 
 ## Tips
 
