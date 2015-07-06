@@ -12,6 +12,12 @@ If you want to build the enclosed example, I'd suggest doing so in a fresh locat
 
 ...
 
+## Tips
+
+There are a few colors defined taken from the UVic brand guidelines, which are available for your general use:
+
+...
+
 ## Links
 
 UVic brand guidelines: http://www.uvic.ca/communicationsmarketing/assets/docs/UVic-Brand-Guidelines.pdf 
