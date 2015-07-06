@@ -2,7 +2,7 @@ LATEX    = latex
 BIBTEX   = bibtex
 DVIPS    = dvips
 
-BASENAME = vic-beamer-example
+BASENAME = uvic-beamer-example
 
 default: testpdflatex
 
