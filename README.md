@@ -10,7 +10,12 @@ To install this beamer theme, you can check out the repository into the working 
 
 If you want to build the enclosed example, I'd suggest doing so in a fresh location like this:
 
-...
+```
+mkdir myWorkDir && cd myWorkDir/
+git clone git@github.com:mattleblanc/uvic-beamer.git
+cp -r uvic-beamer/example/* .
+make
+```
 
 ## Tips
 
