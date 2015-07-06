@@ -1,0 +1,63 @@
+%
+% University of Victoria Beamer Template
+% Matt LeBlanc <matt.leblanc@cern.ch>
+% Dept. of Physics & Astronomy
+%
+
+\documentclass{beamer}
+\geometry{paperwidth=140mm,paperheight=105mm}
+
+\usepackage{ulem}
+\usepackage{array}% http://ctan.org/pkg/array
+\usepackage{url}
+\usepackage{multirow}
+
+% Provides widescreen slide support.
+\usepackage[orientation=landscape,size=custom,width=16,height=9.75,scale=0.5,debug]{beamerposter}
+
+% UVic color hex values from:
+% https://www.uvic.ca/communicationsmarketing/assets/docs/UVic-Brand-Guidelines.pdf
+\definecolor{vicBlue}{RGB}{1, 38, 179}
+\definecolor{vicNavy}{RGB}{0, 40, 87}
+\definecolor{vicCyan}{RGB}{0, 116, 122}
+\definecolor{vicRed}{RGB}{ 241, 0, 50}
+\definecolor{vicYellow}{RGB}{250, 200, 0}
+\definecolor{vicGold}{RGB}{249, 185, 52}
+
+\setbeamercolor{title}{fg=vicNavy}
+\setbeamercolor{titlelike}{fg=vicNavy}
+\setbeamercolor{normal text}{fg=vicNavy}
+\setbeamercolor{item projected}{fg=vicNavy}
+\setbeamercolor{frametitle}{fg=vicNavy}
+\setbeamercolor{alerted text}{fg=vicRed}
+\setbeamercolor{block title}{bg=lightgray,fg=black}
+\setbeamercolor{vicFooterAuthor}{fg=white, bg=vicGold}
+\setbeamercolor{vicFooterTitle}{fg=white, bg=vicNavy}
+
+\usefonttheme{professionalfonts}
+\usetheme{Boadilla}
+\setbeamertemplate{itemize items}[circle]
+
+\makeatother
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \pgfsetfillopacity{1.0}\begin{beamercolorbox}[wd=.3\paperwidth,ht=2.25ex,dp=1ex,center]{vicFooterAuthor}%
+    \usebeamerfont{author in head/foot}\insertshortauthor\;(\insertshortinstitute)
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.7\paperwidth,ht=2.25ex,dp=1ex,center]{vicFooterTitle}%
+    \usebeamerfont{title in head/foot}\insertshorttitle\hspace*{3em}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{1ex}
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\makeatletter
+
+\beamertemplatenavigationsymbolsempty
+
+% Provides the nice bird background.
+\usebackgroundtemplate{
+  \includegraphics[width=\paperwidth,height=\paperheight]{uvic_template/uvic_bird.pdf}
+  }
+  
