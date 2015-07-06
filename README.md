@@ -1,10 +1,10 @@
-### uvic-beamer
+# uvic-beamer
 
 A beamer template loosely following the University of Victoria's style guidelines.
 
 ## Installation
 
-To install this beamer theme, you can check out the repository into the working directory of your beamer project with:
+To use this beamer template, you can check out the repository into the working directory of your beamer project with:
 
 ```
 git clone git@github.com:mattleblanc/uvic-beamer.git
